@@ -9,26 +9,21 @@
   <title>SVGin</title>
 
 
-  <!-- Flatdoc -->
-  <script src='support/vendor/jquery.js'></script>
-  <script src='legacy.js'></script>
-  <script src='flatdoc.js?94850'></script>
+    <!-- Flatdoc -->
+    <script src='http://rstacruz.github.io/flatdoc/v/0.8.6/legacy.js'></script>
+    <script src='http://rstacruz.github.io/flatdoc/v/0.8.6/flatdoc.js'></script>
 
+    <!-- Flatdoc theme (optional) -->
+    <link  href='http://rstacruz.github.io/flatdoc/v/0.8.6/theme-white/style.css' rel='stylesheet'>
+    <script src='http://rstacruz.github.io/flatdoc/v/0.8.6/theme-white/script.js'></script>
 
-  <!-- Flatdoc theme -->
-  <link  href='theme-white/style.css?94850' rel='stylesheet'>
-  <script src='theme-white/script.js?94850'></script>
-  <link  href='support/theme.css?94850' rel='stylesheet'>
-  <script src='support/theme.js?94850'></script>
-
-
-  <!-- Initializer -->
-  <script>
-    Flatdoc.run({
-      fetcher: Flatdoc.file('Readme.md')
-    });
-  </script>
-
+    <!-- Initializer -->
+    <script>
+      Flatdoc.run({ try
+        fetcher: Flatdoc.github('roachhd/SVGin')
+      });
+    </script>
+  
 
   <!-- Meta -->
   <meta content="SVGin" property="og:site_name">
